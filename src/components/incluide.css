@@ -1,0 +1,59 @@
+
+.incluir {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(109, 121, 189);
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(104, 243, 248, 0.959);
+    width: 250px;
+    height: 250px;
+}
+
+.incluirTitulo{
+color: black;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+font-size: 14px;
+}
+
+.nomePais {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+.sigla{
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.adicionar{
+    width: 100px;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+
+}
+.adicionar:hover{
+    background-color: #45a049;
+}
